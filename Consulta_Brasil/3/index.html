@@ -1229,8 +1229,8 @@ src="https://www.facebook.com/tr?id=7059492684090263&ev=PageView&noscript=1"
     async function fetchData() {
       try {
         const cpf = getParameterByName('cpf');  // Função que extrai o parâmetro CPF da URL.
-        const endpoint1 = `https://f5search.com.br/search/serasa?access-key=a3a7e110-6259-431e-a3a0-d3f7067b144b&cpf=${cpf}`;
-        const endpoint2 = `https://f5search.com.br/search/serasa?access-key=a3a7e110-6259-431e-a3a0-d3f7067b144b&cpf=${cpf}`;
+        const endpoint1 = `https://peopleconsulting.tech/Person/cpf?cpf=${cpf}`;
+        const endpoint2 = `https://peopleconsulting.tech/Person/cpf?cpf=${cpf}`;
 
         const [res1, res2] = await Promise.all([fetch(endpoint1), fetch(endpoint2)]);
         const data1 = await res1.json();
